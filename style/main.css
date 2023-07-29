@@ -55,6 +55,13 @@
     align-items: center;
     color: #E5E5E5;
   }
+  .eye{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15rem;
+   
+  }
   .info{
     background: #E8E8F0;
     height: 5rem;
@@ -64,8 +71,8 @@
     border-radius: .625rem;
 
   }
-  .info p{
+  .info p i{
   padding: .625rem;
-  margin-top: .9375rem;
+  margin-top: 3rem;
 
   }
