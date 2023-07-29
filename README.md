@@ -4,19 +4,18 @@ Este é o repositório para o projeto de clone do Nubank, uma aplicação que vi
 
 ## Protótipo
 
-Antes de começar a desenvolver o projeto, é altamente recomendado visualizar o protótipo interativo que criamos para entender melhor como a aplicação funcionará. O protótipo pode ser acessado através deste link: [Link do Protótipo]([coloque_aqui_o_link_do_prototipo](https://www.figma.com/file/lzKZGgRbkD7h6UE3u1rmYI/Nubank-web-(Community)?type=design&node-id=0%3A1&mode=design&t=03EKuL9FOnrk8Z9g-1)).
+Antes de começar a desenvolver o projeto, é altamente recomendado visualizar o protótipo interativo que criamos para entender melhor como a aplicação funcionará. O protótipo pode ser acessado através deste link: [Link do Protótipo](https://www.figma.com/file/lzKZGgRbkD7h6UE3u1rmYI/Nubank-web-(Community)?type=design&node-id=0%3A1&mode=design&t=03EKuL9FOnrk8Z9g-1).
 
 ## Página Web
 
-O projeto inclui tanto o aplicativo quanto a página web do Nubank. Para acessar a página web, basta visitar o seguinte link: [Link da Página Web](coloque_aqui_o_link_da_pagina_web).
+O projeto inclui tanto o aplicativo quanto a página web do Nubank. Para acessar a página web, basta visitar o seguinte link: [Link da Página Web](https://ericsantosdm.github.io/Web-Nubank-Clone/).
 
 ## Tecnologias Utilizadas
 
 - HTML5, CSS3 e JavaScript para a construção da interface do usuário e lógica da aplicação.
-- Framework [coloque_o_nome_do_framework_utilizado], que foi usado para agilizar o desenvolvimento e facilitar a criação de componentes reutilizáveis.
-- [Outras_tecnologias_utilizadas_se_houver]
 
 
 ## Aviso Legal
 
 Este projeto é apenas para fins educacionais e não possui qualquer relação oficial com o Nubank. Todos os direitos de design e marca registrada pertencem ao Nubank.
+
