@@ -48,31 +48,30 @@
     flex-direction: row;
   }
   .user-data{
-   
+    margin-top: 1.875rem;
+    margin-left: 1.875rem;
     height: 5rem;
     width: 20rem;
-    margin: .625rem;
     align-items: center;
     color: #E5E5E5;
   }
   .eye{
+    margin-top: .9375rem;
+    margin-bottom: .9375rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 15rem;
+    font-style: bold;
    
   }
   .info{
     background: #E8E8F0;
-    height: 5rem;
+    height: 7rem;
     width: 20rem;
     margin: .625rem;
-    align-items: center;
     border-radius: .625rem;
+    justify-content: center;
 
   }
-  .info p i{
-  padding: .625rem;
-  margin-top: 3rem;
-
-  }
+ 
