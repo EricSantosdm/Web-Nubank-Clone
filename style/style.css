@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
+  a{
+    text-decoration: none;
+  }
   body{
     display: flex;
     padding: .625rem;
@@ -26,18 +29,29 @@
    
   }
   .icon{
-    height: 1.875rem;
+    height: 3rem;
     margin-left: 1.875rem;
   }
   .logout{
     margin-right: 1.875rem;
-    height: 1.875rem;
-    background: #E8E8F0;
-    padding: .625rem;
+    height: 3rem;
+    background: #c1c1c8;
     border-radius: .5rem;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 
   }
+  .logout p{
+    font-size: 1.875rem;
+    text-decoration: none;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+ 
   .user{
     position: absolute;
     display: flex;
@@ -46,14 +60,18 @@
     width: 100vw;
     top: 10vh;
     flex-direction: row;
+    align-items: center;
+
+ 
   }
   .user-data{
-    margin-top: 1.875rem;
+   
     margin-left: 1.875rem;
     height: 5rem;
     width: 20rem;
     align-items: center;
     color: #E5E5E5;
+    
   }
   .eye{
     margin-top: .9375rem;
@@ -72,6 +90,11 @@
     margin: .625rem;
     border-radius: .625rem;
     justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+
 
   }
  
