@@ -227,6 +227,9 @@ body {
 .tips-chip:hover{
   transform: scale(1.2);
 }
+.material-icons {
+  font-size: 1.8rem; /* Tamanho do ícone */
+}
 
 .circle {
   background: #E8E8F0;
@@ -238,5 +241,6 @@ body {
   justify-content: center;
   color: #820AD1;
   text-align: center;
+  
 }
 
