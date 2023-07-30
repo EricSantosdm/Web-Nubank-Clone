@@ -39,11 +39,11 @@
 .progress{
   display: flex;
   margin-top: 4rem;
-  width: 30rem;
+  width: 100vh;
 
 }
 .progress progress{
-  width: 30rem;
+  width: 40vh;
   color: #820AD1;
 }
 
