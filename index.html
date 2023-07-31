@@ -1,242 +1,216 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/imgs/nubank 1.svg">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    
-    <script src="assets/script.js"></script>
-    <title>Nubank</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nubank</title>
+  <!-- Adicione os estilos do Bootstrap (CSS) -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/nubank 1.svg">
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
-  <div class="loader" id="loader">
-    
-    <div class="spinner"><img src="assets/imgs/nubank 1.svg" alt=""></div>
-   
-  </div>
-
-
-    <div class="container" id="container">
-
-    
-    <div class="top">
-        <img class="icon" src="assets/imgs/nubank 1.svg" alt="">
-        <a href="">
-            <div class="logout">
-                <p >Acessar outra conta</p>
-            </div>
-        </a>
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <img class="icon" src="assets/imgs/nubank 1.svg" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- Adicione aqui os links para outras páginas, se necessário -->
+          <button type="button" class="btn btn-secondary logout">Acessar outra conta</button>
+        </ul>
+      </div>
     </div>
-  
-    <div class="user">
-        <div class="user-data">
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <div class="container-fluid mt-4">
+
+    <div class="row user ">
+        <div class="col-md- mb-3 user-data">
             <p class="name">Olá, <b>Eric dos Santos Bezerra</b></p>
             <div class="eye">
                 <p class="conta"><b>Conta</b></p>
                 <i class="material-icons">visibility</i>
-
             </div>
-            
             <p class="saldo"><b>R$ 0,01</b></p>
-
         </div>
-        <div class="info"><p>Veja os descontos que preparamos para você no Shopping Nubank</p></div>
-        <div class="info"><p>Veja os descontos que preparamos para você no Shopping Nubank</p></div>
-        
+        <div class="col-md-3 mr-3 info"><p>Veja os descontos que preparamos para você no Shopping Nubank</p></div>
+        <div class="col-md-3  mr-3 info"><p>Veja os descontos que preparamos para você no Shopping Nubank</p></div> 
+        <div class="col-md-3  mr-3 info"><p>Veja os descontos que preparamos para você no Shopping Nubank</p></div> 
     </div>
-
-    <div class="tips">
-        <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">attach_money</span>
-            </div>
-            <p>Dinheiro</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">local_atm</span>
-            </div>
-            <p>Caixa</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">account_balance</span>
-            </div>
-            <p>Banco</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">credit_card</span>
-            </div>
-            <p>Cartão</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">monetization_on</span>
-            </div>
-            <p>Monetização</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">account_balance_wallet</span>
-            </div>
-            <p>Carteira</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">money_off</span>
-            </div>
-            <p>Economia</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">payment</span>
-            </div>
-            <p>Pagamento</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">shopping_cart</span>
-            </div>
-            <p>Carrinho</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">receipt</span>
-            </div>
-            <p>Recibo</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">pie_chart</span>
-            </div>
-            <p>Investimento</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">trending_up</span>
-            </div>
-            <p>Crescimento</p>
-          </div>
-        
-          <div class="tips-chip">
-            <div class="circle">
-              <span class="material-icons">money</span>
-            </div>
-            <p>Dinheiro</p>
-          </div>
-            
-  
-    </div>
-    <div class="contents">
-
-   
+    <div class="row justify-content-center">
+      <div class="tips-chip ">
+        <div class="circle">
+          <span class="material-icons">attach_money</span>
+        </div>
+        <p>Dinheiro</p>
+      </div>
     
-    <div class="menu">
-        <div class="menu-item"> <span class="material-icons">
-            info
-            </span><p>Me ajuda</p> <span class="material-icons">
-                navigate_next
-                </span>
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">local_atm</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            people
-            </span><p>Meus dados</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Caixa</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">account_balance</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            tune
-            </span><p>Configurar app</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Banco</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">credit_card</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            security
-            </span><p>Segurança</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Cartão</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">monetization_on</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            work
-            </span><p>Pedir conta PJ</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Monetização</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">account_balance_wallet</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            notifications
-            </span><p>Notificações</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Carteira</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">money_off</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            settings
-            </span><p>Configurar conta</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Economia</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">payment</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            credit_card
-            </span><p>Configurar cartão</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Pagamento</p>
+      </div>
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">shopping_cart</span>
         </div>
-        <div class="menu-item"> <span class="material-icons">
-            description
-            </span><p>Sobre</p> <span class="material-icons">
-                navigate_next
-                </span>
+        <p>Carrinho</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">receipt</span>
         </div>
-      
+        <p>Recibo</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">pie_chart</span>
+        </div>
+        <p>Investimento</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">trending_up</span>
+        </div>
+        <p>Crescimento</p>
+      </div>
+    
+      <div class="tips-chip">
+        <div class="circle">
+          <span class="material-icons">money</span>
+        </div>
+        <p>Dinheiro</p>
+      </div>
     </div>
-    <div class="limit">
-        <div class="credit">
-            <div class="titulo-card"><span class="material-icons">
-                credit_card
-                </span> <p>Cartão de crédito</p></div>
-            <div class="titulo-card">
-                <span class="material-icons">
-                    fiber_manual_record
-                    </span>
-                <p>Fecha em 01 JAN</p>
-
-            </div>
-        </div>
-        <div class="solds">
-            <div class="titulo-card">
-                <span class="material-icons">
-                    fiber_manual_record
-                    </span><p><b>R$ 3.968,32</b></p></div>
-            <div class="titulo-card">
-                <span class="material-icons">
-                    fiber_manual_record
-                    </span><p><b>R$ 3.968,32</b></p></div>
-            <div class="titulo-card">
-                <span class="material-icons">
-                    fiber_manual_record
-                    </span><p><b>R$ 3.968,32</b></p></div>
-        </div>
-
-        <div class="progress">
-            <progress value="50" max="100"></progress>
-        </div>
+    <div class="row mt-5">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
     </div>
-</div>
-</div>  
+    <div class="row">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 mr-3">
+        <div class="menu-item"> <span class="material-icons">
+          info
+          </span><p>Me ajuda</p> <span class="material-icons">
+              navigate_next
+              </span>
+      </div>
+      </div>
+    </div>
+
+  </div>
+  
+
+  <!-- Adicione o JavaScript do Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
