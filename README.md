@@ -13,6 +13,7 @@ O projeto inclui tanto o aplicativo quanto a página web do Nubank. Para acessar
 ## Tecnologias Utilizadas
 
 - HTML5, CSS3 e JavaScript para a construção da interface do usuário e lógica da aplicação.
+- Bootstrap.
 
 
 ## Aviso Legal
